@@ -3,61 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JC Exteriors - Pressure Washing</title>
+    <title>JC Exteriors Power Washing</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="Power Washing (1).png" alt="JC Exteriors Logo">
+            <img src="images/Power Washing (1).png" alt="JC Exteriors Power Washing">
         </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Transform Your Home with Professional Pressure Washing</h2>
-        <p>JC Exteriors - Your Trusted Local Experts</p>
-        <button onclick="window.location.href='#contact'">Get a Free Estimate</button>
+    <section id="home" class="hero">
+        <h1>Welcome to JC Exteriors Power Washing</h1>
+        <p>Your home deserves the best care.</p>
+        <a href="#contact" class="cta">Get a Free Quote</a>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service">
-            <h3>Pressure Washing</h3>
-            <p>Driveways, sidewalks, patios, and more.</p>
-        </div>
-        <div class="service">
-            <h3>Soft Washing</h3>
-            <p>Roofs, siding, fences, and more.</p>
-        </div>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery-item">
-            <h3>Before</h3>
-            <img src="IMG_2204.PNG" alt="Before Pressure Washing">
-            <h3>After</h3>
-            <img src="IMG_2207.PNG" alt="After Pressure Washing">
-        </div>
-        <div class="gallery-item">
-            <h3>Before</h3>
-            <img src="IMG_2205.PNG" alt="Before Pressure Washing">
-            <h3>After</h3>
-            <img src="IMG_2206.PNG" alt="After Pressure Washing">
-        </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At JC Exteriors Power Washing, we provide top-notch pressure washing services to make your home look like new again. Our experienced team ensures every nook and cranny is perfectly cleaned.</p>
     </section>
 
     <section id="testimonials">
-        <h2>What Our Customers Say</h2>
+        <h2>Testimonials</h2>
         <div class="testimonial">
             <p>"John recently pressure washed my house, and I'm thrilled with the results! The pricing was upfront and very competitive, with no surprises. John was friendly, easy to work with, and very professional. He was always on time and communicated well throughout the process. He was thorough, ensuring every nook and cranny was perfectly cleaned. My house looks like new again! I wholeheartedly recommend John for any pressure washing job and will definitely hire him again in the future." - Ryan</p>
         </div>
@@ -66,26 +43,45 @@
         </div>
     </section>
 
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/IMG_2204.PNG" alt="Before">
+                <img src="images/IMG_2205.PNG" alt="After">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_2206.PNG" alt="Before">
+                <img src="images/IMG_2207.PNG" alt="After">
+            </div>
+        </div>
+    </section>
+
     <section id="contact">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
+
+            <button type="submit">Send</button>
         </form>
-        <p>Phone: (815)914-6840</p>
-        <p>Email: jcexteriorspw@gmail.com</p>
+        <div class="contact-info">
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@jcexteriors.com</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 JC Exteriors. All rights reserved.</p>
+        <p>© 2024 JC Exteriors Power Washing. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
     </footer>
-</body>
-</html>
